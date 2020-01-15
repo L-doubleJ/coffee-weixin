@@ -1,0 +1,177 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "臻盈咖啡"
+			}
+		},{
+		    "path" : "pages/login/login",
+		    "style" : {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/myCoffee/myCoffee",
+			"style": {
+				"navigationBarTitleText": "我的咖啡"
+			}
+		}, {
+			"path": "pages/drink/drink",
+			"style": {
+				"navigationBarTitleText": "我要喝"
+			}
+		}, {
+			"path": "pages/buy/buy",
+			"style": {
+				"navigationBarTitleText": "我要买"
+			}
+		}, {
+			"path": "pages/my/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		}, {
+			"path": "pages/my/callback/callback",
+			"style": {
+				"navigationBarTitleText": "反馈清单"
+			}
+		}, {
+			"path": "pages/my/visit/visit",
+			"style": {
+				"navigationBarTitleText": "个人邀请码"
+			}
+		}, {
+			"path": "pages/my/code/code",
+			"style": {
+				"navigationBarTitleText": "兑换码兑换"
+			}
+		}, {
+			"path": "pages/my/callback/addCallBack/addCallBack",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+			}
+		}, {
+			"path": "pages/my/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "publicPage/refundDetail/refundDetail",
+			"style": {
+				"navigationBarTitleText": "退款详情"
+			}
+		}, {
+			"path": "pages/home/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签到打卡"
+			}
+		}, {
+			"path": "publicPage/map/map",
+			"style": {
+				"navigationBarTitleText": "咖啡机定位"
+			}
+		}, {
+			"path": "pages/home/package/package",
+			"style": {
+				"navigationBarTitleText": "团购套餐"
+			}
+		}, {
+			"path": "pages/home/groupDetail/groupDetail",
+			"style": {
+				"navigationBarTitleText": "团购详情"
+			}
+		}, {
+			"path": "pages/home/packageDetail/packageDetail",
+			"style": {
+				"navigationBarTitleText": "套餐详情"
+			}
+		}, {
+			"path": "pages/home/activityOver/activityOver",
+			"style": {
+				"navigationBarTitleText": "活动结束"
+			}
+
+		}
+        ,{
+            "path" : "publicPage/confirmOrder/confirmOrder",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "publicPage/selectCoupon/selectCoupon",
+            "style" : {
+				"navigationBarTitleText": "选择优惠券"
+			}
+        }
+        ,{
+            "path" : "publicPage/orderDetail/orderDetail",
+            "style" : {"navigationBarTitleText": "订单详情"}
+        }
+        ,{
+            "path" : "publicPage/drawback/drawback",
+            "style" : {"navigationBarTitleText": "申请退款"}
+        }
+        ,{
+            "path" : "publicPage/drawbackDetail/drawbackDetail",
+            "style" : {"navigationBarTitleText": "退款详情"}
+        }
+        ,{
+            "path" : "publicPage/logistics/logistics",
+            "style" : {"navigationBarTitleText": "物流进度"}
+
+		}, {
+            "path" : "pages/buy/categoryBuy/categoryBuy",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/buy/productDetail/productDetail",
+            "style" : {}
+
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#67BCB9",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/tabBar/home.png",
+			"selectedIconPath": "static/tabBar/home-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/drink/drink",
+			"iconPath": "static/tabBar/drink.png",
+			"selectedIconPath": "static/tabBar/drink-active.png",
+			"text": "我要喝"
+		}, {
+			"pagePath": "pages/buy/buy",
+			"iconPath": "static/tabBar/buy.png",
+			"selectedIconPath": "static/tabBar/buy-active.png",
+			"text": "我要买"
+		}, {
+			"pagePath": "pages/myCoffee/myCoffee",
+			"iconPath": "static/tabBar/myCoffee.png",
+			"selectedIconPath": "./static/tabBar/myCoffee-active.png",
+			"text": "我的咖啡"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tabBar/my.png",
+			"selectedIconPath": "static/tabBar/my-active.png",
+			"text": "个人中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "臻盈咖啡",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
+
